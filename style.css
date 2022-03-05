@@ -201,6 +201,7 @@ img {
   max-width:100%;
   max-height:100%;
   border-radius: 4px;
+  display:block;
 }
 
 .hamburger {
@@ -284,6 +285,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .project-image {
   width: 50%;
   border: 4mm ridge rgba(218, 219, 221, .6);
+  
 }
 
 .project-texts {
@@ -362,8 +364,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .project-link:hover,
 .project-link:focus,
 .project-link:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
   border: 0.5px solid #F99A14;
   background-color: #F99A14;
 }
@@ -717,6 +717,7 @@ span {
 
   .project-image {
     width: 85%;
+    
   }
 
   .project-texts {
@@ -759,4 +760,6 @@ span {
     height: auto;
     padding-bottom: 10%;
   }
+
+  
 }
