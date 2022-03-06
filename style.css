@@ -408,7 +408,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .skills-logo p {
-  display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1rem;
@@ -703,9 +702,11 @@ span {
     margin: 10% 7%;
   }
 
+
   .project-container {
     text-align: center;
   }
+
 
   .reverse {
     display: flex;
